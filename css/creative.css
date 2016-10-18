@@ -42,7 +42,7 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, p {
 }*/
 
 p {
-    font-size: 1.2em;
+    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -600,9 +600,9 @@ body {
     }
 }
 
-.parallax-special-projects-1 {
+.parallax-corporate-relocation-3 {
     /* The image used */
-    background-image: url("../img/logistics/windmill.jpg");
+    background-image: url("../img/commericalRelocation/globe.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -613,57 +613,26 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .parallax-special-projects-1 {
+    .parallax-corporate-relocation-3 {
         display: none;
     }
 }
 
-.special-projects-1-sub {
+.corporate-relocation-3-sub {
     width: 100%;
     height: 300px;
     ;
     background-size: cover;
-    background-image: url("../img/logistics/windmill.jpg");
+    background-image: url("../img/commericalRelocation/globe.jpeg");
 }
 
 @media screen and (min-width: 769px) {
-    .special-projects-1-sub {
+    .corporate-relocation-3-sub {
         display: none;
     }
 }
 
-.parallax-household-goods-1 {
-    /* The image used */
-    background-image: url("../img/logistics/house.jpeg");
-    /* Set a specific height */
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-@media screen and (max-width: 768px) {
-    .parallax-household-goods-1 {
-        display: none;
-    }
-}
-
-.household-goods-1-sub {
-    width: 100%;
-    height: 300px;
-    ;
-    background-size: cover;
-    background-image: url("../img/logistics/house.jpeg");
-    background-position: bottom;
-}
-
-@media screen and (min-width: 769px) {
-    .household-goods-1-sub {
-        display: none;
-    }
-}
 
 .parallax-container-ship {
     /* The image used */
@@ -677,9 +646,9 @@ body {
     background-size: cover;
 }
 
-.parallax-special-projects-3 {
+.parallax-corporate-relocation-2 {
     /* The image used */
-    background-image: url("../img/logistics/solar-panel.jpeg");
+    background-image: url("../img/commericalRelocation/group-table.jpg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -690,28 +659,28 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .parallax-special-projects-3 {
+    .parallax-corporate-relocation-2 {
         display: none;
     }
 }
 
-.special-projects-3-sub {
+.corporate-relocation-2-sub {
     width: 100%;
     height: 300px;
     ;
     background-size: cover;
-    background-image: url("../img/logistics/solar-panel.jpeg");
+    background-image: url("../img/commericalRelocation/group-table.jpg");
 }
 
 @media screen and (min-width: 769px) {
-    .special-projects-3-sub {
+    .corporate-relocation-2-sub {
         display: none;
     }
 }
 
-.parallax-special-projects-2 {
+.parallax-corporate-relocation-1 {
     /* The image used */
-    background-image: url("../img/logistics/soldier.jpeg");
+    background-image: url("../img/commericalRelocation/sign.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -722,88 +691,27 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .parallax-special-projects-2 {
+    .parallax-corporate-relocation-1 {
         display: none;
     }
 }
 
-.special-projects-2-sub {
+.corporate-relocation-1-sub {
     width: 100%;
     height: 300px;
     ;
     background-size: cover;
-    background-image: url("../img/logistics/soldier.jpeg");
+    background-image: url("../img/commericalRelocation/sign.jpeg");
 }
 
 @media screen and (min-width: 769px) {
-    .special-projects-2-sub {
+    .corporate-relocation-1-sub {
         display: none;
     }
 }
 
-.parallax-household-goods-2 {
-    /* The image used */
-    background-image: url("../img/logistics/vintage-car.jpg");
-    /* Set a specific height */
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-@media screen and (max-width: 768px) {
-    .parallax-household-goods-2 {
-        display: none;
-    }
-}
 
-.household-goods-2-sub {
-    width: 100%;
-    height: 300px;
-    ;
-    background-size: cover;
-    background-image: url("../img/logistics/vintage-car.jpg");
-}
-
-@media screen and (min-width: 769px) {
-    .household-goods-2-sub {
-        display: none;
-    }
-}
-
-.parallax-household-goods-3 {
-    /* The image used */
-    background-image: url("../img/logistics/windows.jpeg");
-    /* Set a specific height */
-    height: 500px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media screen and (max-width: 768px) {
-    .parallax-household-goods-3 {
-        display: none;
-    }
-}
-
-.household-goods-3-sub {
-    width: 100%;
-    height: 300px;
-    ;
-    background-size: cover;
-    background-image: url("../img/logistics/windows.jpeg");
-}
-
-@media screen and (min-width: 769px) {
-    .household-goods-3-sub {
-        display: none;
-    }
-}
 
 #project-logistics-color {
     background: rgba(0, 47, 91, 0.9)
@@ -812,6 +720,8 @@ body {
 .city-name {
     font-weight: 700;
 }
+
+
 
 
 /*@media screen and (min-width: 767px) {
@@ -841,3 +751,100 @@ body {
 @media only screen and (min-device-width: 2048px) and (max-device-width: 1536px) and (orientation: landscape) and ( -webkit-min-device- pixel-ratio: 2) {
     .full-image
 }*/
+
+
+.parallax-household-goods-1 {
+    /* The image used */
+    background-image: url("../img/householdgoods/explore.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-household-goods-1 {
+        display: none;
+    }
+}
+
+.household-goods-1-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/householdgoods/explore.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .household-goods-1-sub {
+        display: none;
+    }
+}
+
+.parallax-household-goods-2 {
+    /* The image used */
+    background-image: url("../img/householdgoods/kid.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-household-goods-2 {
+        display: none;
+    }
+}
+
+.household-goods-2-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/householdgoods/kid.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .household-goods-2-sub {
+        display: none;
+    }
+}
+
+.parallax-household-goods-3 {
+    /* The image used */
+    background-image: url("../img/householdgoods/highway.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-household-goods-3 {
+        display: none;
+    }
+}
+
+.household-goods-3-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/householdgoods/highway.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .household-goods-3-sub {
+        display: none;
+    }
+}
