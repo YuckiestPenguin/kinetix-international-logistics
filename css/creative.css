@@ -190,11 +190,14 @@ aside {
 }*/
 
 .bg-overlay {
-    background: black;
-    opacity: 0.5;
-    position: absolute;
-    height: 100%;
-    text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: ;
+  left: ;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1 ;
+  background-size: cover;
 }
 
 header {
@@ -205,7 +208,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: center;
+    background-position: relative;
     background-image: url('../img/logistics/world-map-squares-full.png');
     text-align: center;
     color: white;
@@ -233,6 +236,32 @@ color: black;
   background-image: url('../img/header/stars.jpg') !important;
 
 color: white;
+}
+
+#corporate-relocation-page-header {
+  background-image: url('../img/header/shoes.jpeg') !important;
+
+color: white;
+}
+
+#household-goods-page-header {
+  background-image: url('../img/header/beach.jpg') !important;
+
+color: rgb(187, 245, 252);
+}
+
+#project-logistics-page-header {
+  background-image: url('../img/header/gears.jpg') !important;
+
+color: white;
+}
+
+.household-goods-color {
+  color: rgb(187, 245, 252);
+}
+
+.project-logistics-color {
+  color: white;
 }
 
 .full-page {
