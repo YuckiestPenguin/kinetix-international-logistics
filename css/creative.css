@@ -211,10 +211,28 @@ header {
     color: white;
 }
 
-.landing-page {
+#landing-page-header {
   background-image: none !important;
 
 color: black;
+}
+
+#relocation-page-header {
+  background-image: url('../img/header/mountains.jpeg') !important;
+
+color: black;
+}
+
+#cargo-page-header {
+  background-image: url('../img/header/building-dots.jpeg') !important;
+
+color: black;
+}
+
+#about-page-header {
+  background-image: url('../img/header/stars.jpg') !important;
+
+color: white;
 }
 
 .full-page {
@@ -956,6 +974,166 @@ body {
 
 @media screen and (min-width: 769px) {
     .special-projects-3-sub {
+        display: none;
+    }
+}
+
+.parallax-relocation-1 {
+    /* The image used */
+    background-image: url("../img/parallax/office-angle.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-relocation-1 {
+        display: none;
+    }
+}
+
+.parallax-relocation-1-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/parallax/office-angle.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .parallax-relocation-1-sub {
+        display: none;
+    }
+}
+
+.parallax-relocation-2 {
+    /* The image used */
+    background-image: url("../img/parallax/house-angle.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-relocation-2 {
+        display: none;
+    }
+}
+
+.parallax-relocation-2-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/parallax/house-angle.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .parallax-relocation-2-sub {
+        display: none;
+    }
+}
+
+.parallax-cargo-1 {
+    /* The image used */
+    background-image: url("../img/parallax/construction.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-cargo-1 {
+        display: none;
+    }
+}
+
+.parallax-cargo-1-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/parallax/construction.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .parallax-cargo-1-sub {
+        display: none;
+    }
+}
+
+.parallax-cargo-2 {
+    /* The image used */
+    background-image: url("../img/parallax/green-door.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-cargo-2 {
+        display: none;
+    }
+}
+
+.parallax-cargo-2-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/parallax/green-door.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .parallax-cargo-2-sub {
+        display: none;
+    }
+}
+
+.parallax-cargo-3 {
+    /* The image used */
+    background-image: url("../img/parallax/store.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-cargo-3 {
+        display: none;
+    }
+}
+
+.parallax-cargo-3-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/parallax/store.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .parallax-cargo-3-sub {
         display: none;
     }
 }
