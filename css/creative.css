@@ -42,7 +42,7 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 
@@ -209,6 +209,16 @@ header {
     background-image: url('../img/logistics/world-map-squares-full.png');
     text-align: center;
     color: white;
+}
+
+.landing-page {
+  background-image: none !important;
+
+color: black;
+}
+
+.full-page {
+  height: 100%;
 }
 
 header .header-content {
@@ -714,7 +724,7 @@ body {
 
 
 #project-logistics-color {
-    background: rgba(0, 47, 91, 0.9)
+    background: #002f5b
 }
 
 .city-name {
@@ -845,6 +855,107 @@ body {
 
 @media screen and (min-width: 769px) {
     .household-goods-3-sub {
+        display: none;
+    }
+}
+
+#introduction {
+  background-color: #02476f;
+  color: white;
+}
+
+.parallax-special-projects-1 {
+    /* The image used */
+    background-image: url("../img/logistics/windmill.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-special-projects-1 {
+        display: none;
+    }
+}
+
+.special-projects-1-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/windmill.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .special-projects-1-sub {
+        display: none;
+    }
+}
+
+.parallax-special-projects-2 {
+    /* The image used */
+    background-image: url("../img/logistics/soldier.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-special-projects-2 {
+        display: none;
+    }
+}
+
+.special-projects-2-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/soldier.jpeg");
+}
+
+@media screen and (min-width: 769px) {
+    .special-projects-2-sub {
+        display: none;
+    }
+}
+
+.parallax-special-projects-3 {
+    /* The image used */
+    background-image: url("../img/logistics/windmill.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-special-projects-3 {
+        display: none;
+    }
+}
+
+.special-projects-3-sub {
+    width: 100%;
+    height: 300px;
+    ;
+    background-size: cover;
+    background-image: url("../img/logistics/windmill.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    .special-projects-3-sub {
         display: none;
     }
 }
