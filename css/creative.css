@@ -812,7 +812,7 @@ body {
 
 .parallax-household-goods-1 {
     /* The image used */
-    background-image: url("../img/householdgoods/explore.jpg");
+    background-image: url("../img/householdGoods/explore.jpg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -833,7 +833,7 @@ body {
     height: 300px;
     ;
     background-size: cover;
-    background-image: url("../img/householdgoods/explore.jpg");
+    background-image: url("../img/householdGoods/explore.jpg");
 }
 
 @media screen and (min-width: 769px) {
@@ -844,7 +844,7 @@ body {
 
 .parallax-household-goods-2 {
     /* The image used */
-    background-image: url("../img/householdgoods/windows.jpeg");
+    background-image: url("../img/householdGoods/windows.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -865,7 +865,7 @@ body {
     height: 300px;
     ;
     background-size: cover;
-    background-image: url("../img/householdgoods/windows.jpeg");
+    background-image: url("../img/householdGoods/windows.jpeg");
 }
 
 @media screen and (min-width: 769px) {
@@ -876,7 +876,7 @@ body {
 
 .parallax-household-goods-3 {
     /* The image used */
-    background-image: url("../img/householdgoods/reading.jpeg");
+    background-image: url("../img/householdGoods/reading.jpeg");
     /* Set a specific height */
     height: 500px;
     /* Create the parallax scrolling effect */
@@ -897,7 +897,7 @@ body {
     height: 300px;
     ;
     background-size: cover;
-    background-image: url("../img/householdgoods/reading.jpeg");
+    background-image: url("../img/householdGoods/reading.jpeg");
 }
 
 @media screen and (min-width: 769px) {
